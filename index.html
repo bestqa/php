@@ -28,6 +28,8 @@
 		}
 		#log_tail
 		{
+		width:6px;
+		text-align:left;
 		float:left
 		}
 		#sign_in_up
@@ -36,9 +38,11 @@
 		}
 		#menu
 		{
-		width:746px;
+		width:740px;
 		float:right;
 		text-align:right;
+		position:relative;
+		vertical-align:bottom;
 		margin-top:10px;
 		margin-right:14px;
 		margin-bottom:5px
@@ -59,18 +63,32 @@
 	<body class="body_width">
 		<div id="navigator">
 			<div id="logo">
-				<a href="http://www.bestqa.org">
+				<a href="index.html">
 					<img src="images/logo.jpg"/>
 				</a>
 			</div>
+			<div id="log_tail">
+				<a>.org</a>
+			</div>
 			<div id="menu">
 				<div id="sign_in_up"> 
-					<a id="log_tail">.org </a> 
 					<a>Sign In</a> &nbsp;
 					<a>Sign Up</a> &nbsp;
 				</div>
-				<div style="font-size:20px;text-transform:uppercase"> 
-					<a href="http://www.bestqa.org">Home</a> &nbsp;&nbsp;
+				<div style="font-size:20px;text-transform:uppercase">
+					<!--
+				    <script type="text/javascript">
+				    	function display_home_icon(){
+				    		var newHTML = "<img src='images/HomeButton.png' alt='home_icon' width='60' height='56' style='vertical-align:bottom' \/>";
+				    		document.getElementById("home").innerHTML = newHTML;
+				    	}
+				    	function back(){
+				    		document.getElementById("home").innerHTML="Home"
+				    	}
+				    </script>
+					<a id="home" href="index.html" onmouseover="display_home_icon()" onmouseout="back()">Home</a> 
+					-->
+					<a>Home</a> &nbsp;&nbsp;
 					<a>Mission</a> &nbsp;&nbsp;
 					<a>Articles</a> &nbsp;&nbsp;
 					<a>Seminars</a> &nbsp;&nbsp; 
