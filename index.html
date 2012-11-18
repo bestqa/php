@@ -6,99 +6,111 @@
 		<style type="text/css"> 
 		.body_width
 		{
-		width:960px;
-		background-color:transparent;
-		border-color:transparent;
-		margin-top:5px;
-		margin-left:auto;
-		margin-right:auto;
-		text-align:center;
-		font-family:Arial
+			width:960px;
+			background-color:#F7F7F7;
+			border-color:transparent;
+			margin-top:5px;
+			margin-left:auto;
+			margin-right:auto;
+			text-align:center;
+			font-family:Arial
 		}
-		#navigator
+		#banner
 		{
-		height:85px;
-		margin:0;
-		padding:0
+			height:85px;
+			margin:0;
+			padding:0;
+			border-bottom:2px solid;
 		}
 		#logo
 		{
-		width:194px;
-		text-align:left;
-		float:left
+			width:194px;
+			text-align:left;
+			float:left
 		}
 		#log_tail
 		{
-		width:6px;
-		text-align:left;
-		float:left;
-		color:#DDF
+			width:6px;
+			text-align:left;
+			float:left;
+			font-size: 13px;
+			color:#DDF
 		}
 		#sign_in_up
 		{
-		margin-bottom:20px
+			margin-bottom:20px;
+			font-size: 13px;
 		}
-		#menu
+		#navigator
 		{
-		font-family:sans-serif;
-		color:#338;
-		width:740px;
-		float:right;
-		text-align:right;
-		position:relative;
-		vertical-align:bottom;
-		margin-top:10px;
-		margin-left:5px;
-		margin-right:14px;
-		margin-bottom:5px;
+			font-family:sans-serif;
+			color:#338;
+			width:740px;
+			float:right;
+			text-align:right;
+			position:relative;
+			vertical-align:bottom;
+			margin-top:20px;
+			margin-left:5px;
+			margin-right:0px;
+			margin-bottom:0px;
+		}
+		#menu_bar
+		{
+			font-size: 20px;
+			text-transform: uppercase;
+		}
+		.menu_bar
+		{
+			text-decoration: none;
+			background: #F7F7F7;
+			border-radius: 5px 5px 5px;
 		}
 		#footer
 		{
-		height:110px;	
-		margin:0px;
-		padding:20px;
-		padding-top:0;
-		padding-bottom:10px
+			height:32px;	
+			margin:0px;
+			padding:20px;
+			padding-top:0;
+			padding-bottom:0px
 		}
 		</style>
 	</head>
 
-	<body class="body_width">
-		<div id="navigator">
+	<body class="body_width" onselectstart="return false">
+		<div id="banner">
 			<div id="logo">
 				<a href="index.html">
-					<img src="images/logo.jpg"/>
+					<img src="images/logo.gif"/>
 				</a>
 			</div>
-			<div id="log_tail">
-				<a>.org</a>
-			</div>
-			<div id="menu">
+			<div id="log_tail">.org</div>
+			<div id="navigator">
 				<div id="sign_in_up"> 
 					<a href="http://www.bestqa.org/forum/wp-register.php" target="_blank">Sign Up</a> &nbsp;
-					<a href="http://www.bestqa.org/forum/wp-login.php" target="_blank">Sign In</a> &nbsp;&nbsp;
+					<a href="http://www.bestqa.org/forum/wp-login.php" target="_blank">Sign In</a>
 				</div>
-				<div style="font-size:20px;text-transform:uppercase">
-					<a href="index.html" style="text-decoration:none;background:#F7F7F7;border-radius:5px 5px 5px;">Home</a> &nbsp;&nbsp;
-					<a href="index.html" style="text-decoration:none;background:#F7F7F7;border-radius:5px 5px 5px;">Mission</a> &nbsp;&nbsp;
-					<a href="index.html" style="text-decoration:none;background:#F7F7F7;border-radius:5px 5px 5px;">Articles</a> &nbsp;&nbsp;
-					<a href="index.html" style="text-decoration:none;background:#F7F7F7;border-radius:5px 5px 5px;">Seminars</a> &nbsp;&nbsp;
-					<a href="index.html" style="text-decoration:none;background:#F7F7F7;border-radius:5px 5px 5px;">Resources</a> &nbsp;&nbsp;
-					<a href="http://www.bestqa.org/forum" style="text-decoration:none;color:white;background:#000000;border-radius:5px 5px 5px;" target='_blank' title="Goto WordPress Site">Forum</a> &nbsp; 
+				<div id="menu_bar">
+					<a href="index.html" class="menu_bar">Home</a> &nbsp;&nbsp;
+					<a href="index.html" class="menu_bar">Mission</a> &nbsp;&nbsp;
+					<a href="index.html" class="menu_bar">Articles</a> &nbsp;&nbsp;
+					<a href="index.html" class="menu_bar">Seminars</a> &nbsp;&nbsp;
+					<a href="index.html" class="menu_bar">Resources</a> &nbsp;&nbsp;
+					<a href="http://www.bestqa.org/forum" class="menu_bar" style="text-decoration:none;color:white;background:#000000;border-radius:5px 5px 5px;" target='_blank' title="Goto WordPress Site">Forum</a>
 				</div>
 			</div>
 		</div>
 		<div style="margin:0;padding:0;">
-			<h1>The website is building ..., plz follow us on Social Medias<h1>
+			<h1>The website is <a href="https://github.com/bestqa/rails" style="text-decoration:none;">building ...</a>, plz follow us on Social Medias<h1>
 		<div/>
 		<div id="footer">
 			<a href="http://twitter.com/bestqaorg" style="text-decoration:none" target='_blank' title="@bestqaorg">
 				<img src="images/twitter.png"/>
 			</a>
 			<a href="http://q.weibo.com/291573" style="text-decoration:none" target='_blank' title="+新浪微群">
-				<img width="100" height="30" src="images/weibo.png"/>
+				<img src="images/weibo.png"/>
 			</a>
-			<a href="https://plus.google.com/u/0/114905847024713781131/posts" style="text-decoration:none" target='_blank'　title="G+">
+			<a href="https://plus.google.com/u/0/114905847024713781131/posts" style="text-decoration:none" target='_blank' title="Google+">
 				<img src="images/googleplus.png"/>
 			</a> 
 			<a href="http://www.linkedin.com/groups/bestqaorg-4177253" style="text-decoration:none" target='_blank' title="Join LinkedIn Group">
