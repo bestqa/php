@@ -1,0 +1,70 @@
+.body_width
+{
+	width:960px;
+	background-color:#F7F7F7;
+	border-color:transparent;
+	margin-top:5px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font-family:Arial
+}
+#banner
+{
+	height:85px;
+	margin:0;
+	padding:0;
+	border-bottom:2px solid;
+}
+#logo
+{
+	width:194px;
+	text-align:left;
+	float:left
+}
+#log_tail
+{
+	width:6px;
+	text-align:left;
+	float:left;
+	font-size: 13px;
+	color:#DDF
+}
+#sign_in_up
+{
+	margin-bottom:20px;
+	font-size: 13px;
+}
+#navigator
+{
+	font-family:sans-serif;
+	color:#338;
+	width:740px;
+	float:right;
+	text-align:right;
+	position:relative;
+	vertical-align:bottom;
+	margin-top:20px;
+	margin-left:5px;
+	margin-right:0px;
+	margin-bottom:0px;
+}
+#menu_bar
+{
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.menu_bar
+{
+	text-decoration: none;
+	background: #F7F7F7;
+	border-radius: 5px 5px 5px;
+}
+#footer
+{
+	height:32px;	
+	margin:0px;
+	padding:20px;
+	padding-top:0;
+	padding-bottom:0px
+}
