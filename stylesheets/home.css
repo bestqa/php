@@ -1,3 +1,8 @@
+img 
+{
+  border-style: none;
+  border-color: none;
+}
 .body_width
 {
 	width:960px;
@@ -20,7 +25,9 @@
 {
 	width:194px;
 	text-align:left;
-	float:left
+	float:left;
+	border-style:none;
+	border-color:none;
 }
 #log_tail
 {
