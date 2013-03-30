@@ -22,8 +22,8 @@ CKEDITOR.editorConfig = function( config ) {
 		{ name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ] },
 		{ name: 'paragraph',   groups: [ 'list', 'indent', 'blocks', 'align' ] },
 		{ name: 'styles' },
-		{ name: 'colors' },
-		{ name: 'about' }
+		{ name: 'colors' }
+		//{ name: 'about' }
 	];
 
 	// Remove some buttons, provided by the standard plugins, which we don't
@@ -35,4 +35,39 @@ CKEDITOR.editorConfig = function( config ) {
 
 	// Make dialogs simpler.
 	config.removeDialogTabs = 'image:advanced;link:advanced';
+	
+	// Add PBCKcode
+	config.extraPlugins = 'pbckcode';
+	config.pbckcode  = {
+		'cls': 'prettyprint linenums',
+		'modes' : [
+		    ["C/C++"        , "c_pp"],
+		    ["C#"           , "csharp"],
+		    ["CSS"          , "css"],
+		    ["Groovy"       , "groovy"],
+		    ["HTML"         , "html"],
+		    ["Java"         , "java"],
+		    ["JavaScript"   , "javascript"],
+		    ["JSON"         , "json"],
+		    ["JSP"          , "jsp"],
+		    ["Perl"         , "perl"],
+		    ["PHP"          , "php"],
+		    ["Python"       , "python"],
+		    ["Ruby"         , "ruby"],
+		    ["Scala"        , "scala"],
+		    ["SHELL"        , "sh"],
+		    ["SQL"          , "sql"],
+		    ["Tcl"          , "tcl"],
+		    ["XML"          , "xml"],
+		    ["YAML"         , "yaml"]
+		],
+		'theme': 'textmate',
+		'highlitjs': true
+	};
+	
+	// Add language
+	config.language = 'en';
+
+	// Add color
+	//config.uiColor = '#AADC6E';
 };
