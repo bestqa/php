@@ -10,7 +10,7 @@
 				echo $page_title;
 		?>
 	</title>
-	<?php if($page_title == "articles_create") echo '<script src="/ckeditor/ckeditor.js"></script>'; ?>
+	<?php if($page_title == "article_create") echo '<script src="/ckeditor/ckeditor.js"></script>'; ?>
 	<style type="text/css"> 
 		<!--
 		@import url("/stylesheets/home.css");
