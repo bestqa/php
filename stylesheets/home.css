@@ -3,6 +3,10 @@ img
   border-style: none;
   border-color: none;
 }
+p
+{
+  text-align: left
+}
 .body_width
 {
 	width:960px;
@@ -13,6 +17,11 @@ img
 	margin-right:auto;
 	text-align:center;
 	font-family:Arial
+}
+#iframe
+{
+  width: 960px;
+  min-height: 800px
 }
 #banner
 {
