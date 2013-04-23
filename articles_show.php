@@ -27,7 +27,7 @@
 					iframe.height = iframe.contentWindow.document.body.scrollHeight + "px";
 				};
 			</script>
-    			<iframe id="iframe" frameBorder="0" onload="iframeLoaded3(this)" src="http://forum.bestqa.org/?author=2"></iframe>	
+    			<iframe id="iframe" frameBorder="0" onload="iframeLoaded3(this)" src="http://forum.bestqa.org/"></iframe>	
 		</div>
 		<?php include 'footer.php'; ?>
 	</body>
