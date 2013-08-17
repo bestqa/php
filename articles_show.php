@@ -16,18 +16,8 @@
 				function iframeLoaded() {
 					setIframeHeight(document.getElementById('iframe'));
 				};
-				function iframeLoaded2() {
-					var iFrameID = document.getElementById('iframe');
-					if(iFrameID) {
-						iFrameID.height = "";
-						iFrameID.height = iFrameID.contentWindow.document.body.scrollHeight + "px";
-					}
-				};
-				function iframeLoaded3(iframe) {
-					iframe.height = iframe.contentWindow.document.body.scrollHeight + "px";
-				};
 			</script>
-    			<iframe id="iframe" frameBorder="0" onload="iframeLoaded3(this)" src="http://forum.bestqa.org/"></iframe>	
+    			<iframe id="iframe" frameBorder="0" onload="iframeLoaded();" src="http://forum.bestqa.org/"></iframe>	
 		</div>
 		<?php include 'footer.php'; ?>
 	</body>
