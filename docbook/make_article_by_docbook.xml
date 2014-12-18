@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
+  <title>Write an Article with Docbook 5.0</title>
+  <sect1>
+    <title>Why use XML?</title>
+    <para>First, we can write articles like programmers, and each one can edit a document concurrently; Second, the XML document can be transformed into different formats, like HTML web page and PDF.</para>
+    <sect3>
+      <title>Docbook Tags Usage</title>
+      <para><link xl:href="http://docbook.org/tdg5/en/html/docbook.html">http://docbook.org/tdg5/en/html/docbook.html</link></para>
+    </sect3>
+  </sect1>
+
+  <section>
+    <title>Produce an XML article to HTML</title>
+    <para><link xl:href="http://www.sagehill.net/docbookxsl/index.html">http://www.sagehill.net/docbookxsl/index.html</link></para>
+    <para><link xl:href="http://sourceforge.net/projects/docbook/files/">http://sourceforge.net/projects/docbook/files/</link></para>
+  </section>
+
+  <section>
+    <title>Generate an XML artical to PDF</title>
+    <para><link xl:href="http://xmlgraphics.apache.org/fop/">http://xmlgraphics.apache.org/fop/</link></para>
+  </section>
+  
+  <para>The article was published on 2014-12-13 by Xiaodong Chen<footnote><para>Reach to the author by <email>chxd99@pku.edu.cn</email></para></footnote></para> 
+</article>
