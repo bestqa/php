@@ -3,7 +3,7 @@
   <title>Write an Article with Docbook 5.0</title>
   <sect1>
     <title>Why use XML?</title>
-    <para>First, we can write articles like programmers, and each one can edit a document concurrently; Second, the XML document can be transformed into different formats, like HTML web page and PDF.</para>
+    <para>First, we can write articles like writing code, and anyone of document members can edit a document concurrently; Second, the XML document can be transformed into different formats, like HTML web page and PDF.</para>
     <sect3>
       <title>Docbook Tags Usage</title>
       <para><link xl:href="http://docbook.org/tdg5/en/html/docbook.html">http://docbook.org/tdg5/en/html/docbook.html</link></para>
