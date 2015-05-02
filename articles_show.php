@@ -19,7 +19,7 @@
 			</script>
     			<iframe id="iframe" frameBorder="0" onload="iframeLoaded();" src="articles/make_article_by_docbook.html"></iframe>
 		</div>
-		<?php include 'footer.php'; ?>
+		<!--?php include 'footer.php'; ?-->
 	</body>
 </html>
 
