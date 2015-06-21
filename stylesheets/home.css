@@ -30,6 +30,12 @@ p
 	padding:0;
 	border-bottom:2px solid;
 }
+.not-active
+{
+        text-decoration: none;
+        pointer-events: none;
+        color: gray;
+}
 #logo
 {
 	width:194px;
