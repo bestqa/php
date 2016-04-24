@@ -11,9 +11,9 @@
 		?>
 	</title>
 	<?php if($page_title == "article_create") echo '<script src="/ckeditor/ckeditor.js"></script>'; ?>
-	<style type="text/css"> 
-		<!--
-		@import url("/stylesheets/home.css");
+	<style type="text/css" > 
+	    <!--
+		@import url("./stylesheets/home.css");
 		-->
 	</style>
 </head>
